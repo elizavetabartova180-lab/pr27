@@ -1,13 +1,13 @@
 ﻿namespace Kino_Bartova.Model
 {
-    public class kinoteatr
+    public class Kinoteatr
     {
         public int Id { get; set; }
         public string Name { get; set; }
         public int CountZal { get; set; }
         public int Count { get; set; }
 
-        public kinoteatr(int Id, string Name, int CountZal, int Count)
+        public Kinoteatr(int Id, string Name, int CountZal, int Count)
         {
             this.Id = Id;
             this.Name = Name;
