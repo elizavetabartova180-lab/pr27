@@ -9,6 +9,11 @@
       Title="Main">
 
     <Grid>
-        
+        <ScrollViewer Margin="5,5,5,40">
+            <StackPanel x:Name="parent">
+
+            </StackPanel>
+        </ScrollViewer>
+        <Button Click="AddRecord" Content="Добавить" Height="25" Margin="0,0,10,10" HorizontalAlignment="Right" Width="80" Background="#FF73E618" BorderBrush="#FF73E618" Foreground="White" VerticalAlignment="Bottom" />
     </Grid>
 </Page>
