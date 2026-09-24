@@ -1,5 +1,4 @@
-﻿using Kino_Bartova.Classes;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,23 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Kino_Bartova
+namespace Kino_Bartova.Pages.Afisha
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для Main.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Main : Page
     {
-        public static MainWindow init;
-        public MainWindow()
+        public Main()
         {
             InitializeComponent();
-            OpenPage(new Pages.Kinoteatr.Main());
-            init = this;
-        }
-        public void OpenPage(Page Page)
-        {
-            frame.Navigate(Page);
         }
     }
 }
